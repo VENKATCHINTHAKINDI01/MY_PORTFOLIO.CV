@@ -1,10 +1,19 @@
 import { motion, useInView, useScroll, useTransform } from 'framer-motion';
 import { useRef, useState } from 'react';
-import { ExternalLink, Github, Brain, Utensils, Shield, Play, Folder } from 'lucide-react';
+import { ExternalLink, Github, Brain, Utensils, Shield, Play, Folder, TrendingUp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { MagneticWrapper } from '@/components/MagneticWrapper';
 
 const projects = [
+  {
+    title: 'AI Stock Forecasting Platform',
+    description: 'Production-ready, end-to-end time series forecasting system that automates stock selection, multi-model training, evaluation, and forecasting. Ingests market data from Yahoo Finance, trains ARIMA/SARIMA, Prophet, XGBoost, and PyTorch LSTM models with automatic best model selection using RMSE/MAE tracked via MLflow. Features interactive Streamlit UI with Plotly visualizations, confidence intervals, and Docker deployment.',
+    tags: ['Time Series', 'MLflow', 'PyTorch', 'Streamlit', 'Docker', 'MLOps'],
+    icon: TrendingUp,
+    gradient: 'from-violet-500/20 to-purple-500/20',
+    borderGradient: 'from-violet-500 to-purple-500',
+    githubUrl: 'https://github.com/VENKATCHINTHAKINDI01/AI_STOCK_FORECASTING_01',
+  },
   {
     title: 'Text Summarization using NLP & Transformers',
     description: 'Advanced text summarization system leveraging NLP and transformer-based models to extract key insights from large volumes of text, applicable to news, legal, and academic domains.',
