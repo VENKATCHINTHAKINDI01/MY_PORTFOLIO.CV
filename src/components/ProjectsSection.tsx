@@ -1,10 +1,19 @@
 import { motion, useInView, useScroll, useTransform } from 'framer-motion';
 import { useRef, useState } from 'react';
-import { ExternalLink, Github, Brain, Utensils, Shield, Play, Folder, TrendingUp } from 'lucide-react';
+import { ExternalLink, Github, Brain, Utensils, Shield, Play, Folder, TrendingUp, Waves } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { MagneticWrapper } from '@/components/MagneticWrapper';
 
 const projects = [
+  {
+    title: 'QueryWave — Intelligent RAG Platform',
+    description: 'A modular, end-to-end, industry-grade Retrieval-Augmented Generation (RAG) system built using fully open-source tools. Enables intelligent document retrieval and AI-powered question answering with scalable architecture.',
+    tags: ['RAG', 'LLM', 'Vector DB', 'Open Source', 'NLP', 'AI'],
+    icon: Waves,
+    gradient: 'from-blue-500/20 to-teal-500/20',
+    borderGradient: 'from-blue-500 to-teal-500',
+    githubUrl: 'https://github.com/VENKATCHINTHAKINDI01/QueryWave',
+  },
   {
     title: 'AI Stock Forecasting Platform',
     description: 'Production-ready, end-to-end time series forecasting system that automates stock selection, multi-model training, evaluation, and forecasting. Ingests market data from Yahoo Finance, trains ARIMA/SARIMA, Prophet, XGBoost, and PyTorch LSTM models with automatic best model selection using RMSE/MAE tracked via MLflow. Features interactive Streamlit UI with Plotly visualizations, confidence intervals, and Docker deployment.',
