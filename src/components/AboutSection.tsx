@@ -6,7 +6,7 @@ const highlights = [
   {
     icon: Target,
     title: 'Goal-Oriented',
-    description: 'Focused on delivering impactful ML solutions',
+    description: 'Focused on delivering impactful AI/ML solutions',
   },
   {
     icon: Lightbulb,
