@@ -113,7 +113,7 @@ export const AboutSection = () => {
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Seeking a challenging role in a dynamic, fast-paced environment to leverage analytical thinking, 
-                  continuous learning, and technical expertise to deliver impactful Machine Learning and Data Science solutions. 
+                  continuous learning, and technical expertise to deliver impactful Artificial Intelligence, Machine Learning and Data Science solutions. 
                   Committed to innovation and excellence in every project.
                 </p>
               </motion.div>
