@@ -15,7 +15,7 @@ export const HeroSection = () => {
   const handleDownloadResume = () => {
     // Create a sample resume download - in production, this would link to an actual PDF
     const link = document.createElement('a');
-    link.href = '/public/CHINTHAKINDI_VENKAT_RESUME_01.pdf';
+    link.href = 'CHINTHAKINDI_VENKAT_RESUME.pdf';
     link.download = 'Chinthakindi_Venkat_Resume.pdf';
     link.click();
   };
