@@ -1,10 +1,19 @@
 import { motion, useInView, useScroll, useTransform } from 'framer-motion';
 import { useRef, useState } from 'react';
-import { ExternalLink, Github, Brain, Utensils, Shield, Play, Folder, TrendingUp, Waves } from 'lucide-react';
+import { ExternalLink, Github, Brain, Utensils, Shield, Play, Folder, TrendingUp, Waves, Code } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { MagneticWrapper } from '@/components/MagneticWrapper';
 
 const projects = [
+  {
+    title: 'CODEZEN.AI — Intelligent Code Assistant',
+    description: 'An AI-powered code generation and assistance platform that leverages large language models to help developers write, debug, and optimize code across multiple programming languages with intelligent context understanding.',
+    tags: ['AI', 'Code Generation', 'LLM', 'Python', 'Developer Tools'],
+    icon: Code,
+    gradient: 'from-emerald-500/20 to-cyan-500/20',
+    borderGradient: 'from-emerald-500 to-cyan-500',
+    githubUrl: 'https://github.com/VENKATCHINTHAKINDI01/CODEZEN.AI',
+  },
   {
     title: 'QueryWave — Intelligent RAG Platform',
     description: 'A modular, end-to-end, industry-grade Retrieval-Augmented Generation (RAG) system built using fully open-source tools. Enables intelligent document retrieval and AI-powered question answering with scalable architecture.',
