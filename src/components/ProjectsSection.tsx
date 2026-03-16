@@ -1,10 +1,19 @@
 import { motion, useInView, useScroll, useTransform } from 'framer-motion';
 import { useRef, useState } from 'react';
-import { ExternalLink, Github, Brain, Utensils, Shield, Play, Folder, TrendingUp, Waves, Code } from 'lucide-react';
+import { ExternalLink, Github, Brain, Utensils, Shield, Play, Folder, TrendingUp, Waves, Code, Mic} from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { MagneticWrapper } from '@/components/MagneticWrapper';
 
 const projects = [
+  {
+    title: 'ZenPrep — AI Mock Interview Platform',
+    description: 'AI-powered multilingual mock interview platform built for India. Practice real voice interviews in 11 Indian languages, get detailed AI feedback across 6 dimensions, and access AI-curated upskilling resources. Features interactive radar charts and covers 11 specialized domains.',
+    tags: ['AI', 'Voice', 'Multilingual', 'NLP', 'Interview Prep', 'India'],
+    icon: Mic,
+    gradient: 'from-indigo-500/20 to-purple-500/20',
+    borderGradient: 'from-indigo-500 to-purple-500',
+    githubUrl: 'https://github.com/VENKATCHINTHAKINDI01/ZenPrep-',
+  },
   {
     title: 'CODEZEN.AI — Intelligent Code Assistant',
     description: 'An AI-powered code generation and assistance platform that leverages large language models to help developers write, debug, and optimize code across multiple programming languages with intelligent context understanding.',
